@@ -1,0 +1,35 @@
+<html>
+<head>
+
+	<title>AI Object Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="bg.webp">
+    <center>
+    <h1 class="btn btn-info heading">AI  Object  Finder</h1>
+    <br><br>
+    <h3 id="lbl" class="btn btn-success">Object Name:</h3>
+    <br><br>
+    <input type="text" id="input">
+    <br> <br>
+    <button class="btn btn-danger" id="start" onclick="start()">Start</button>
+    <button class="btn btn-warning" id="status"></button>
+    <button class="btn btn-primary" id="object_found"></button>
+</center>
+
+<script src="main.js"></script>
+</body>

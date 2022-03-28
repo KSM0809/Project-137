@@ -1,0 +1,46 @@
+body{
+    background-size: contain;
+}
+
+.heading{
+    width: 100%;
+    margin: 0px;
+    font-size: 25px;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+#lbl{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#input{
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: darkslateblue;
+    line-height: 1.5;
+    background-color: lightcyan;
+    font-size: 17px;
+}
+
+.btn-danger{
+    font-size: 18px;
+    font-family: 'Dela Gothic One', cursive;
+    margin-right: 20px;
+}
+
+.btn-warning{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+canvas{
+    border: 2px solid violet;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
